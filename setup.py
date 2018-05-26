@@ -1,11 +1,11 @@
 import setuptools
 
-with open("README.md", "r") as fh:
+with open("README.md", "r",encoding="utf8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="pywiz",
-    version="0.0.1",
+    version="0.0.2",
     author="Ron Gatewood",
     author_email="ronald.l.gatewood@gmail.com",
     description="A PyQt5 wizard package",
@@ -19,5 +19,6 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ),
+    install_requires=['PyQt5'],
 
 )
