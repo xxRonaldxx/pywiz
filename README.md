@@ -1,4 +1,4 @@
-# pwiz
+# pywiz
 **python PyQt5 wizard module used to display a sequence of pages in a dialog box to help guide a user through a step by step process.**
 
 [![Latest PyPI version](https://img.shields.io/badge/pypi-v0.2-green.svg)](https://pypi.org/project/pywiz/)
