@@ -11,7 +11,7 @@
 ## to use the PyQt5 QWizard class.
 ##
 ##    Usage example:
-##    >>>> Import pywiz
+##    >>>> import pywiz
 ##
 ##    >>>> pywiz.setWizardTitle(“Your first wizard”)
 ##
@@ -55,11 +55,11 @@ def runWizard():
     sys.exit(app.exec_())
 
 
-if __name__ == 'pywiz':
-    import sys
-    app = QApplication(sys.argv)
-    wizard = QWizard()
-    #wizard.setWindowTitle('Please use "setWindowTitle()" to give this wizard a title.')
+#if __name__ == 'pywiz':
+import sys
+app = QApplication(sys.argv)
+wizard = QWizard()
+#wizard.setWindowTitle('Please use "setWindowTitle()" to give this wizard a title.')
 
 
 if __name__ == '__main__':

@@ -1,1 +1,1 @@
-import pywiz
+from pywiz import pywiz
