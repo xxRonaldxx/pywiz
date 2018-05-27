@@ -11,7 +11,7 @@
 ## to use the PyQt5 QWizard class.
 ##
 ##    Usage example:
-##    >>>> import pywiz
+##    >>>> from pywiz import pywiz
 ##
 ##    >>>> pywiz.setWizardTitle(“Your first wizard”)
 ##

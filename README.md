@@ -9,7 +9,7 @@ Initially, I used a python script containing a series of message boxes to walk t
 
 ### Usage example:
 
-    >>>> import pywiz
+    >>>> from pywiz import pywiz
 
     >>>> pywiz.setWizardTitle(“Your first wizard”)
 
