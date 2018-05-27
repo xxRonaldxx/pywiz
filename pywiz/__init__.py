@@ -42,7 +42,7 @@ def addPage(title,text):
     layout.addWidget(label)
     page.setLayout(layout)
     wizard.addPage(page)
-    
+
 
 def setWizardTitle(name):
     wizard.setWindowTitle(name)
