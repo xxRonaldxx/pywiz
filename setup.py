@@ -5,7 +5,7 @@ with open("README.md", "r",encoding="utf8") as fh:
 
 setuptools.setup(
     name="pywiz",
-    version="0.0.12",
+    version="0.0.13",
     author="xxRonaldxx",
     author_email="xxRonaldxx@someplace.com",
     description="A PyQt5 wizard package",
@@ -13,7 +13,8 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/xxRonaldxx/pywiz",
     license='MIT',
-    packages=setuptools.find_packages(),
+    #packages=setuptools.find_packages(),
+    py_modules=['pywiz'],
     classifiers=(
         "Development Status :: 2 - Pre-Alpha",
         "Environment :: Win32 (MS Windows)",
