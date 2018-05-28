@@ -8,7 +8,7 @@
 # To run this example
 # $> python example.py
 
-from pywiz import pywiz
+import pywiz
 
 pywiz.setWizardTitle("Your First Wizard")
 pywiz.addPage("Test wizard",'First attempt at a wizard!  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR '+

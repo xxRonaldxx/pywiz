@@ -5,9 +5,9 @@ with open("README.md", "r",encoding="utf8") as fh:
 
 setuptools.setup(
     name="pywiz",
-    version="0.0.11",
-    author="Ron Gatewood",
-    author_email="ronald.l.gatewood@gmail.com",
+    version="0.0.12",
+    author="xxRonaldxx",
+    author_email="xxRonaldxx@someplace.com",
     description="A PyQt5 wizard package",
     long_description=long_description,
     long_description_content_type="text/markdown",

@@ -2,14 +2,15 @@
 **python PyQt5 wizard module used to display a sequence of pages in a dialog box to help guide a user through a step by step process.**
 
 [![Latest PyPI version](https://img.shields.io/badge/pypi-v0.2-green.svg)](https://pypi.org/project/pywiz/)
-[![License: MIT](https://img.shields.io/dub/l/vibe-d.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/dub/l/vibe-d.svg)]
 
 Initially, I used a python script containing a series of message boxes to walk through updating an excel spreadsheet done on a monthly basis.  This module enabled me to replace each of my msgbox(title,text) functions with an addPage(title, text) function, easily modifying the scripts to use the PyQt5 QWizard class.
 
+# Requires PyQt5
 
 ### Usage example:
 
-    >>>> from pywiz import pywiz
+    >>>> import pywiz
 
     >>>> pywiz.setWizardTitle(“Your first wizard”)
 
@@ -22,7 +23,7 @@ Initially, I used a python script containing a series of message boxes to walk t
 
 ### Installation:
 
-From PyPI: Get the latest stable version of ``pywiz`` package using pip:
+From PyPI: Get the latest version of the ``pywiz`` package using pip:
 
     pip install pywiz
 
